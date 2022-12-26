@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FBA2962B2957B61A0003E420 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA2962A2957B61A0003E420 /* main.swift */; };
+		FBA2963E29598A170003E420 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA2963D29598A170003E420 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		FBA296252957B61A0003E420 /* CopyFiles */ = {
+		FBA2963829598A170003E420 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FBA296272957B61A0003E420 /* typealias */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = typealias; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBA2962A2957B61A0003E420 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FBA2963A29598A170003E420 /* Internal-External Params */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Internal-External Params"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBA2963D29598A170003E420 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FBA296242957B61A0003E420 /* Frameworks */ = {
+		FBA2963729598A170003E420 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,66 +38,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FBA2961E2957B61A0003E420 = {
+		FBA2963129598A170003E420 = {
 			isa = PBXGroup;
 			children = (
-				FBA296292957B61A0003E420 /* typealias */,
-				FBA296282957B61A0003E420 /* Products */,
+				FBA2963C29598A170003E420 /* Internal-External Params */,
+				FBA2963B29598A170003E420 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FBA296282957B61A0003E420 /* Products */ = {
+		FBA2963B29598A170003E420 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FBA296272957B61A0003E420 /* typealias */,
+				FBA2963A29598A170003E420 /* Internal-External Params */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FBA296292957B61A0003E420 /* typealias */ = {
+		FBA2963C29598A170003E420 /* Internal-External Params */ = {
 			isa = PBXGroup;
 			children = (
-				FBA2962A2957B61A0003E420 /* main.swift */,
+				FBA2963D29598A170003E420 /* main.swift */,
 			);
-			path = typealias;
+			path = "Internal-External Params";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FBA296262957B61A0003E420 /* typealias */ = {
+		FBA2963929598A170003E420 /* Internal-External Params */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FBA2962E2957B61A0003E420 /* Build configuration list for PBXNativeTarget "typealias" */;
+			buildConfigurationList = FBA2964129598A170003E420 /* Build configuration list for PBXNativeTarget "Internal-External Params" */;
 			buildPhases = (
-				FBA296232957B61A0003E420 /* Sources */,
-				FBA296242957B61A0003E420 /* Frameworks */,
-				FBA296252957B61A0003E420 /* CopyFiles */,
+				FBA2963629598A170003E420 /* Sources */,
+				FBA2963729598A170003E420 /* Frameworks */,
+				FBA2963829598A170003E420 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = typealias;
-			productName = typealias;
-			productReference = FBA296272957B61A0003E420 /* typealias */;
+			name = "Internal-External Params";
+			productName = "Internal-External Params";
+			productReference = FBA2963A29598A170003E420 /* Internal-External Params */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FBA2961F2957B61A0003E420 /* Project object */ = {
+		FBA2963229598A170003E420 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
-					FBA296262957B61A0003E420 = {
+					FBA2963929598A170003E420 = {
 						CreatedOnToolsVersion = 14.0;
 					};
 				};
 			};
-			buildConfigurationList = FBA296222957B61A0003E420 /* Build configuration list for PBXProject "typealias" */;
+			buildConfigurationList = FBA2963529598A170003E420 /* Build configuration list for PBXProject "Internal-External Params" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -105,29 +105,29 @@
 				en,
 				Base,
 			);
-			mainGroup = FBA2961E2957B61A0003E420;
-			productRefGroup = FBA296282957B61A0003E420 /* Products */;
+			mainGroup = FBA2963129598A170003E420;
+			productRefGroup = FBA2963B29598A170003E420 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FBA296262957B61A0003E420 /* typealias */,
+				FBA2963929598A170003E420 /* Internal-External Params */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FBA296232957B61A0003E420 /* Sources */ = {
+		FBA2963629598A170003E420 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBA2962B2957B61A0003E420 /* main.swift in Sources */,
+				FBA2963E29598A170003E420 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		FBA2962C2957B61A0003E420 /* Debug */ = {
+		FBA2963F29598A170003E420 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -187,7 +187,7 @@
 			};
 			name = Debug;
 		};
-		FBA2962D2957B61A0003E420 /* Release */ = {
+		FBA2964029598A170003E420 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -240,7 +240,7 @@
 			};
 			name = Release;
 		};
-		FBA2962F2957B61A0003E420 /* Debug */ = {
+		FBA2964229598A170003E420 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -251,7 +251,7 @@
 			};
 			name = Debug;
 		};
-		FBA296302957B61A0003E420 /* Release */ = {
+		FBA2964329598A170003E420 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -265,25 +265,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FBA296222957B61A0003E420 /* Build configuration list for PBXProject "typealias" */ = {
+		FBA2963529598A170003E420 /* Build configuration list for PBXProject "Internal-External Params" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FBA2962C2957B61A0003E420 /* Debug */,
-				FBA2962D2957B61A0003E420 /* Release */,
+				FBA2963F29598A170003E420 /* Debug */,
+				FBA2964029598A170003E420 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FBA2962E2957B61A0003E420 /* Build configuration list for PBXNativeTarget "typealias" */ = {
+		FBA2964129598A170003E420 /* Build configuration list for PBXNativeTarget "Internal-External Params" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FBA2962F2957B61A0003E420 /* Debug */,
-				FBA296302957B61A0003E420 /* Release */,
+				FBA2964229598A170003E420 /* Debug */,
+				FBA2964329598A170003E420 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FBA2961F2957B61A0003E420 /* Project object */;
+	rootObject = FBA2963229598A170003E420 /* Project object */;
 }
