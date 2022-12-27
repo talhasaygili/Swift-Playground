@@ -7,7 +7,7 @@
 
 import Foundation
 
-// Aynı isimlendirme
+// Same naming
 
 func type1(name: String, lastname: String){
     print("Welcome \(name) \(lastname)!")
@@ -16,7 +16,7 @@ func type1(name: String, lastname: String){
 type1(name: "Talha", lastname: "Saygili")
 
 
-// Farklı isimlendirme
+// Different Naming
 
 func type2(CustomerName name: String, CustomerLastName lastname: String){
     print("Welcome \(name) \(lastname)!")
@@ -25,7 +25,7 @@ func type2(CustomerName name: String, CustomerLastName lastname: String){
 type2(CustomerName: "Talha", CustomerLastName: "Saygili")
 
 
-// External İsimlendirmesiz
+// Without external naming
 
 func type3(_ name: String, _ lastname: String){
     print("Welcome \(name) \(lastname)!")
